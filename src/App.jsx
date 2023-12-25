@@ -1,6 +1,6 @@
 function App() {
   return (
-    <div>
+    <div className='bg-red-700'>
       <h1>Here is my porfolio</h1>
     </div>
   );
