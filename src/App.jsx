@@ -1,7 +1,9 @@
+import Home from './pages/Home';
+
 function App() {
   return (
-    <div className='bg-red-700'>
-      <h1>Here is my porfolio</h1>
+    <div className='font-poppins bg-slate-50'>
+      <Home />
     </div>
   );
 }
