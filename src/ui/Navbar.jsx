@@ -7,13 +7,14 @@ function Navbar() {
 
   function onToggleMenu() {
     setHamburger(!hamburger);
+    // document.body.style.overflow = hamburger ? "auto" : "hidden";
   }
 
   return (
     <nav>
-      <div className="mt-0 hidden items-center justify-between px-4 py-4 sm:flex">
+      <div className="mt-0 hidden items-center justify-between px-4 py-4 md:flex">
         <img src="./logo1.png" className="w-42 h-16 p-1" />
-        <ul className="mr-16 hidden items-center space-x-12 px-12 text-xl font-bold sm:flex">
+        <ul className="mr-16 hidden items-center space-x-12 px-12 text-xl font-bold md:flex">
           <li>
             <a>Home</a>
           </li>
@@ -25,23 +26,21 @@ function Navbar() {
           </li>
         </ul>
       </div>
-      <div className="sm:hidden">
+      <div className="md:hidden">
         <div className="flex items-center justify-between">
           <a>
             <img src="./logo1.png" alt="" className="w-42 h-16 p-1" />
           </a>
           <button onClick={onToggleMenu} className="px-4">
-            {!hamburger ? <CiMenuFries /> : <TfiClose />}
+            {!hamburger && <CiMenuFries />}
           </button>
         </div>
         {hamburger && (
-          <>
-            <div
-              className="fixed inset-0 z-50 bg-black opacity-50"
-              onClick={onToggleMenu}
-            ></div>
-            <ul className="fixed left-0 top-0 z-50 h-full w-64 bg-white p-4">
-              {" "}
+          <div className="fixed inset-0 z-50 flex h-full w-full justify-center bg-white p-4 ">
+            <button onClick={onToggleMenu} className="absolute right-3 top-3">
+              <TfiClose />
+            </button>{" "}
+            <ul className="mt-4 flex flex-col items-center space-y-8 pt-10 text-xl font-semibold text-slate-600">
               <li>
                 <a>Home</a>
               </li>
@@ -52,7 +51,7 @@ function Navbar() {
                 <a>Contact</a>
               </li>
             </ul>
-          </>
+          </div>
         )}
       </div>
       <br />
