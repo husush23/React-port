@@ -1,8 +1,8 @@
-import Home from './pages/Home';
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className='font-poppins bg-slate-50'>
+    <div className=" font-poppins">
       <Home />
     </div>
   );
