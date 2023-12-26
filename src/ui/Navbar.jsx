@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { CiMenuFries } from "react-icons/ci";
 import { TfiClose } from "react-icons/tfi";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   const [hamburger, setHamburger] = useState(false);
@@ -16,13 +17,13 @@ function Navbar() {
         <img src="./logo1.png" className="w-42 h-16 p-1" />
         <ul className="mr-16 hidden items-center space-x-12 px-12 text-xl font-bold md:flex">
           <li>
-            <a>Home</a>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <a>Work</a>
+            <NavLink to="/work">Work</NavLink>
           </li>
           <li>
-            <a>Contact</a>
+            <NavLink to="/contact">Contact</NavLink>
           </li>
         </ul>
       </div>
@@ -42,13 +43,13 @@ function Navbar() {
             </button>{" "}
             <ul className="mt-4 flex flex-col items-center space-y-8 pt-10 text-xl font-semibold text-slate-600">
               <li>
-                <a>Home</a>
+                <NavLink to="/">Home</NavLink>
               </li>
               <li>
-                <a>Work</a>
+                <NavLink to="/work">Work</NavLink>
               </li>
               <li>
-                <a>Contact</a>
+                <NavLink to="/contact">Contact</NavLink>
               </li>
             </ul>
           </div>
