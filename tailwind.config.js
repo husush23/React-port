@@ -1,12 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       fontFamily: {
-        poppins: 'Poppins',
-        beVietnamPro: 'Be Vietnam Pro',
-        plairFairDisplay: 'Playfair Display',
+        poppins: "Poppins",
+        beVietnamPro: "Be Vietnam Pro",
+        plairFairDisplay: "Playfair Display",
       },
       /*
       colors:
@@ -28,7 +28,7 @@ export default {
     --e-global-color-astglobalcolor7: #9ca7ab;
     --ast-global-color-7: #9ca7ab;
     --e-global-color-astglobalcolor8: #000000;
-    --ast-global-color-8: #000000;
+    --ast-global-color-8: #1d262b;
 }
       */
     },
