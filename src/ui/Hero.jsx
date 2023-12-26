@@ -21,7 +21,7 @@ function Hero() {
         />
       </div>
       <div className="px-auto mx-auto flex flex-col items-center py-8 text-slate-800 md:flex md:flex-row md:justify-between md:px-8 md:py-0">
-        <ul className="flex items-center gap-16 space-x-6 text-lg font-medium  md:order-2">
+        <ul className="flex items-center space-x-6 text-lg font-medium md:order-2  md:gap-16">
           <li>
             <a>Behance</a>
           </li>
