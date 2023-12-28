@@ -1,6 +1,8 @@
-import Hero from "../ui/Hero";
-import Info from "../ui/Info";
-import Navbar from "../ui/Navbar";
+import Hero from "../components/Hero";
+import Info from "../components/Info";
+import Navbar from "../components/Navbar";
+import Qualification from "../components/Qualification";
+import Recents from "../components/Recents";
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Info />
+      <Recents />
+      <Qualification />
     </main>
   );
 }
