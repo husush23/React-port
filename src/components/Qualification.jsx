@@ -7,7 +7,7 @@ function Qualification() {
         <h3 className="w-[100%] font-beVietnamPro text-2xl font-medium">03.</h3>
       </div>
       <div className="mx-6 space-x-6 md:flex md:flex-row">
-        <h3 className="max-w-3xl py-4 font-beVietnamPro text-3xl font-semibold md:text-4xl">
+        <h3 className=" w-[51%] py-4 font-beVietnamPro text-3xl font-semibold md:text-4xl">
           What I am awesome at
         </h3>
         <div className="">
