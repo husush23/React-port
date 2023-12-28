@@ -2,7 +2,7 @@ function Recent({ img, first, right, left }) {
   return (
     <div
       className={`space-y-4 py-12 ${
-        first ? "md:col-span-2 md:mx-1" : left ? "md:mt-14" : "md:mb-14"
+        first ? "md:col-span-2 md:mx-8" : left ? "md:mt-14" : "md:mb-14"
       }`}
     >
       <img src={img} className="mx-auto w-full" />

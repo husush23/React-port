@@ -9,7 +9,7 @@ function Footer() {
         <span className="pl-2">Full-stack developer</span>
       </div>
       <div>
-        <ul className="flex space-x-8">
+        <ul className="flex space-x-12 pr-44">
           <li>
             <Link>Behance</Link>
           </li>
