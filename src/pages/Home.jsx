@@ -1,3 +1,5 @@
+import Footer from "../components/Footer";
+import Gmail from "../components/Gmail";
 import Hero from "../components/Hero";
 import Info from "../components/Info";
 import Navbar from "../components/Navbar";
@@ -12,6 +14,8 @@ export default function Home() {
       <Info />
       <Recents />
       <Qualification />
+      <Gmail />
+      <Footer />
     </main>
   );
 }
