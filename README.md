@@ -66,7 +66,7 @@ You can deploy this project using any hosting server in the world
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
+<!-- AUTHOR -->
 
 ## 👥 Authors <a name="authors">Hussein Hashi</a>
 
