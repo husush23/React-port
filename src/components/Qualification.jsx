@@ -2,12 +2,12 @@ import SkillSecion from "./SkillSecion";
 
 function Qualification() {
   return (
-    <div className="flex flex-col space-x-6 space-y-6 pr-3 md:mx-12 md:flex md:flex-col">
+    <div className="flex flex-col space-x-6 space-y-6 pr-3 md:mx-12 md:mt-48 md:flex md:flex-col">
       <div className="px-6">
         <h3 className="w-[100%] font-beVietnamPro text-2xl font-medium">03.</h3>
       </div>
       <div className="mx-6 space-x-6 md:flex md:flex-row">
-        <h3 className="py-4 font-beVietnamPro text-3xl font-semibold md:text-4xl">
+        <h3 className="max-w-3xl py-4 font-beVietnamPro text-3xl font-semibold md:text-4xl">
           What I am awesome at
         </h3>
         <div className="">
@@ -22,7 +22,7 @@ function Qualification() {
           <div className="gap-x-8 md:grid md:grid-cols-2">
             <div>
               <SkillSecion>
-                <h4 className="text-xl">Art director</h4>
+                <h4 className="text-2xl font-semibold">Art director</h4>
                 <p>
                   Tellus enim eget massa est lorem amet, integer feugiat vivamus
                   egestas nam adipiscing tortor arcu ultrices eget vitae tortor
@@ -32,7 +32,7 @@ function Qualification() {
             </div>
             <div>
               <SkillSecion>
-                <h4 className="text-xl">Visual identity</h4>
+                <h4 className="text-2xl font-semibold">Visual identity</h4>
                 <p>
                   Semper tortor tortor scelerisque egestas amet, in ridiculus
                   integer elit urna, ultrices velit accumsan scelerisque aliquam
@@ -42,7 +42,7 @@ function Qualification() {
             </div>
             <div>
               <SkillSecion>
-                <h4 className="text-xl">Brand experience</h4>
+                <h4 className="text-2xl font-semibold">Brand experience</h4>
                 <p>
                   Aliquam sed nam amet, id tincidunt blandit porta ut commodo ut
                   odio non morbi pellentesque consequat felis sollicitudin in
@@ -52,7 +52,7 @@ function Qualification() {
             </div>
             <div>
               <SkillSecion>
-                <h4 className="text-xl">Motion design</h4>
+                <h4 className="text-2xl font-semibold">Motion design</h4>
                 <p>
                   Pulvinar tellus sit mauris duis ipsum, at consequat, sed
                   accumsan, sed aliquam, accumsan, velit sed sagittis, phasellus
