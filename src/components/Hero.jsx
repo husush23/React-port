@@ -9,7 +9,7 @@ function Hero() {
             <span className="font-beVietnamPro font-semibold">
               Hi. I am a <br />
             </span>
-            <span className="font-lobister md:text-7xl">
+            <span className="font-plairFairDisplay italic md:text-7xl">
               full-stack developer <br />
             </span>
             <span className="font-poppins font-semibold">based in Nairobi</span>
