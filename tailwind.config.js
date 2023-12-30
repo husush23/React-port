@@ -7,7 +7,7 @@ export default {
         poppins: "Poppins",
         beVietnamPro: "Be Vietnam Pro",
         plairFairDisplay: "Playfair Display",
-        lobister: "Lobster",
+        lobster: "Lobster",
       },
     },
   },
