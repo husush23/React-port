@@ -54,7 +54,7 @@ In order to run this project you need: only to clone this github repo
 Clone this repository to your desired folder:
 
 - cd my-folder
-- git clone https://github.com/husush23/porfolio.gitt
+- git clone https://github.com/husush23/React-port.git
 
 ### Install
 
@@ -66,7 +66,7 @@ You can deploy this project using any hosting server in the world
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
+<!-- AUTHOR -->
 
 ## 👥 Authors <a name="authors">Hussein Hashi</a>
 
