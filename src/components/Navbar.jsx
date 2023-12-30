@@ -17,13 +17,19 @@ function Navbar() {
         <img src="./logo1.png" className="w-42 h-16 p-1" />
         <ul className="mr-16 hidden items-center space-x-12 px-12 text-xl font-bold md:flex">
           <li>
-            <NavLink to="/">Home</NavLink>
+            <NavLink className="hover:text-purple-500" to="/">
+              Home
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/work">Work</NavLink>
+            <NavLink className="hover:text-purple-500" to="/work">
+              Work
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/contact">Contact</NavLink>
+            <NavLink className="hover:text-purple-500" to="/contact">
+              Contact
+            </NavLink>
           </li>
         </ul>
       </div>
