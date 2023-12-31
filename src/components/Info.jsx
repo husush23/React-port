@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Recents from "./Recents";
 
 function Info() {
   return (
