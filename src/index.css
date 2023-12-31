@@ -15,3 +15,9 @@
 .active {
   color: rgb(168 85 247);
 }
+.manual-back {
+  background-color: #fcfcf8;
+}
+.input-back {
+  background-color: #fafafa;
+}
