@@ -72,15 +72,16 @@ You can deploy this project using any hosting server in the world
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/husush23)
-- Twitter: [@twitterhandle](https://twitter.com/HusseinKadare2)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hussein-kadare-8aa1361a8/)
+- GitHub: [@husush23](https://github.com/husush23)
+- Twitter: [@husseinkadare2](https://twitter.com/HusseinKadare2)
+- LinkedIn: [Hussein kadare](https://www.linkedin.com/in/hussein-kadare-8aa1361a8/)
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Full website**
+- **Form submission**
+- **Projects API**
 
 <!-- SUPPORT -->
 
@@ -88,15 +89,12 @@ You can deploy this project using any hosting server in the world
 
 If you like this project please follow on my social media platform listed above.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank everyone who encourages me doing all these tasks.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+I want to thank <a href='https://wpastra.com/templates/visual-artist-portfolio-02/'>Astara</a> team for makng this design available for their website.
+By the way, I could'nt get the author/designer of this theme/website and that's why I am giving the credit to Astara team.
 
 <!-- LICENSE -->
 
