@@ -2,7 +2,7 @@ import SkillSecion from "./SkillSecion";
 
 function Qualification() {
   return (
-    <div className="flex flex-col space-x-6 space-y-6 pr-3 md:mx-12 md:mt-48 md:flex md:flex-col">
+    <div className="flex flex-col space-x-6 space-y-6 pr-3 md:mx-12 md:mt-48 md:flex md:flex-col md:px-10">
       <div className="px-6">
         <h3 className="w-[100%] font-beVietnamPro text-2xl font-medium">03.</h3>
       </div>

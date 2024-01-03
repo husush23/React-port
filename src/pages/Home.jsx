@@ -14,7 +14,12 @@ export default function Home() {
       <Info />
       <Recents />
       <Qualification />
-      <Gmail />
+      <div className="pt-10">
+        <h3 className="mx-24 my-12 text-xl font-semibold md:text-3xl md:font-medium">
+          Want to work together?
+        </h3>
+        <Gmail />
+      </div>
       <Footer />
     </main>
   );

@@ -1,4 +1,5 @@
 import { IoMdArrowRoundDown } from "react-icons/io";
+import { Link as ScrollLink } from "react-scroll";
 
 function Hero() {
   return (
@@ -33,12 +34,22 @@ function Hero() {
           </li>
         </ul>
         <div className=" flex flex-col items-center justify-center space-x-4 py-4 md:flex md:flex-row md:space-x-2 md:px-5">
-          <button className="flex items-center justify-center p-2 md:p-0 md:text-6xl">
+          <ScrollLink
+            to="info"
+            smooth={true}
+            duration={700}
+            className="flex cursor-pointer items-center justify-center p-2 md:p-0 md:text-6xl"
+          >
             <IoMdArrowRoundDown />
-          </button>
-          <span className="font-md text-sm tracking-wide text-slate-800 md:text-base md:font-semibold md:text-slate-900">
+          </ScrollLink>
+          <ScrollLink
+            to="info"
+            smooth={true}
+            duration={500}
+            className="font-md text-sm tracking-wide text-slate-800 md:text-base md:font-semibold md:text-slate-900"
+          >
             Scroll to down
-          </span>
+          </ScrollLink>
         </div>
       </div>
     </section>

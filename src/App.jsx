@@ -6,7 +6,7 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <div className=" font-poppins">
+    <main className=" font-poppins">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -15,7 +15,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
-    </div>
+    </main>
   );
 }
 

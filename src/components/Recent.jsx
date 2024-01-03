@@ -1,4 +1,6 @@
-function Recent({ img, first, right, left }) {
+import PropTypes from "prop-types";
+
+function Recent({ img, first, left }) {
   return (
     <div
       className={`space-y-4 py-12 ${
@@ -13,3 +15,10 @@ function Recent({ img, first, right, left }) {
 }
 
 export default Recent;
+
+Recent.propTypes = {
+  img: PropTypes.string,
+  first: PropTypes.string,
+  left: PropTypes.string,
+  right: PropTypes.string,
+};
