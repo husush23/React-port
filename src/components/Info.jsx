@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
 
-function Info() {
+function Info({ id }) {
   return (
-    <section className="justfy-center mt-28 flex flex-col items-start px-6 md:flex md:flex-row md:space-x-44">
+    <section
+      id={id}
+      className="justfy-center mt-28 flex flex-col items-start px-6 md:flex md:flex-row md:space-x-44"
+    >
       <div className="   font-beVietnamPro text-2xl font-medium md:px-20">
         <h3 className=" font-beVietnamPro text-2xl font-medium md:text-3xl">
           01.{" "}
