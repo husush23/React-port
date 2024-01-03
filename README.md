@@ -33,9 +33,18 @@
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>portfolio website</summary>
+  <summary>Front end</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://react.dev/">ReactJS</a></li>
+    <li><a href="https://redux.js.org/">Redux</a></li>
+    <li><a href="https://tailwindcss.com/">Tailwind</a></li>
+  </ul>
+</details>
+<details>
+  <summary>Back end</summary>
+  <ul>
+    <li><a href="https://supabase.com/">Supabase</a></li>
+    <li><a href="https://www.sanity.io//">Sanity</a></li>
   </ul>
 </details>
 
