@@ -11,7 +11,7 @@ export default function Home() {
     <main>
       <Navbar />
       <Hero />
-      <Info id="info" />
+      <Info />
       <Recents />
       <Qualification />
       <div className="pt-10">

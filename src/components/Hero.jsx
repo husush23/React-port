@@ -37,7 +37,7 @@ function Hero() {
           <ScrollLink
             to="info"
             smooth={true}
-            duration={500}
+            duration={700}
             className="flex cursor-pointer items-center justify-center p-2 md:p-0 md:text-6xl"
           >
             <IoMdArrowRoundDown />
