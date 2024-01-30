@@ -17,8 +17,9 @@ function Hero() {
           </h1>
         </div>
         <img
-          src="https://websitedemos.net/visual-artist-portfolio-02/wp-content/uploads/sites/1059/2022/03/visual-artist-hero-image.jpg"
-          className=" mx-auto w-11/12 rounded-[40%] py-2 md:h-4/5 md:w-3/12 md:pb-3"
+          src="./main1.jpg"
+          alt="Hussein"
+          className=" mx-auto w-11/12 rounded-[30%] py-2 md:h-4/5 md:w-3/12 md:pb-3"
         />
       </div>
       <div className="px-auto mx-auto flex flex-col items-center py-8 text-slate-800 md:flex md:flex-row md:justify-between md:px-8 md:py-0">
