@@ -19,7 +19,7 @@ function Posts() {
         }
     }`,
       )
-      .then((data) => setPosts(data))
+      .then((data) => setPosts(data[0]))
       .catch(console.error);
     console.log(posts);
   }, []);
