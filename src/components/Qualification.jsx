@@ -13,10 +13,10 @@ function Qualification() {
         <div className="">
           <div>
             <p className=" py-4 text-2xl">
-              I design from the ground up ultricies et eu vestibulum sagittis,
-              laoreet massa risus fermentum, netus sed arcu vitae viverra
-              rhoncus dignissim. Velit ornare maecenas diam vel ac aliquet
-              morbi.
+              I excel in full-stack development, from system architecture to
+              interactive web design, integrating APIs, and database management
+              for seamless functionality. My work ensures engaging user
+              experiences and robust backend support.
             </p>
           </div>
           <div className="gap-x-8 md:grid md:grid-cols-2">
