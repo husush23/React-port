@@ -25,13 +25,13 @@ function Hero() {
       <div className="px-auto mx-auto flex flex-col items-center py-8 text-slate-800 md:flex md:flex-row md:justify-between md:px-8 md:py-0">
         <ul className="flex items-center space-x-6 text-lg font-medium md:order-2  md:gap-16">
           <li>
-            <a>Behance</a>
+            <a href="https://github.com/husush23">GitHub</a>
           </li>
           <li>
-            <a>LinkedIn</a>
+            <a href="https://www.linkedin.com/in/husseinkadare/"> LinkedIn</a>
           </li>
           <li>
-            <a>Dribble</a>
+            <a href="https://twitter.com/husseinkadare2">Twitter(𝕏)</a>
           </li>
         </ul>
         <div className=" flex flex-col items-center justify-center space-x-4 py-4 md:flex md:flex-row md:space-x-2 md:px-5">
