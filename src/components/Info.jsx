@@ -25,9 +25,14 @@ function Info() {
           impact. Committed to excellence, I transform complex challenges into
           intuitive and engaging digital products.
         </p>
-        <Link className="border-b-2 border-cyan-400 pt-6 hover:border-black">
+        <a
+          href="./resume.pdf"
+          target="_blank"
+          rel="noopenner noreferrer"
+          className="border-b-2 border-cyan-400 pt-6 hover:border-black"
+        >
           More about me
-        </Link>
+        </a>
       </div>
     </section>
   );
