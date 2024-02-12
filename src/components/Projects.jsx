@@ -36,7 +36,7 @@ function Projects() {
   }, []);
 
   return (
-    <div className="md:grid md:grid-cols-2 ">
+    <div className="py-12 md:grid md:grid-cols-2">
       {projects.map((project, index) => (
         <Recent
           key={project._id}

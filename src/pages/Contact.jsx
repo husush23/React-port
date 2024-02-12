@@ -16,9 +16,24 @@ function Contact() {
         <div className="mx-10 my-28 flex flex-col space-y-10 md:mx-20 md:my-36">
           <h3>Or connect with me on socials</h3>
           <ul className="flex flex-wrap text-3xl font-medium md:text-5xl">
-            <li className="pr-8">Behance</li>
-            <li className="pr-8">Dribble</li>
-            <li className="pr-8">LinkedIn</li>
+            <li className="pr-8">
+              <Link to="https://github.com/husush23" target="_blank">
+                GitHub
+              </Link>
+            </li>
+            <li className="pr-8">
+              <Link
+                to="https://www.linkedin.com/in/husseinkadare/"
+                target="_blank"
+              >
+                LinkedIn
+              </Link>
+            </li>
+            <li className="pr-8">
+              <Link to="https://twitter.com/husseinkadare2" target="_blank">
+                Twitter(𝕏)
+              </Link>
+            </li>
           </ul>
         </div>
         <div className="manual-back  flex flex-col space-y-8 border border-slate-100 md:ml-6 md:flex md:flex-row md:py-36">

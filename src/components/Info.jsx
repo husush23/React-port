@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 function Info() {
   return (
     <section
@@ -13,19 +11,26 @@ function Info() {
       </div>
       <div className="w-[25% mb-20 pt-4">
         <h2 className="md:-9 pb-8 text-lg font-medium md:text-3xl md:leading-[3rem]">
-          Passionate about visual design imperdiet nunc mauris turpis facilisis
-          suspendisse non. Purus viverra egestas amet sed pellentesque aliquet
-          pellentesque. Massa tincidunt sed nisl pulvinar congue.
+          Dedicated to full-stack development, I merge elegant design with
+          powerful functionality. Expert in crafting user-centric interfaces and
+          scalable backend systems. Passionate about delivering exceptional web
+          experiences through innovation and technology
         </h2>
         <p className="pb-6 text-lg">
-          Sed amet ultricies nibh in cras id in praesent vitae pellentesque
-          felis iaculis egestas interdum justo, lacus aenean in iaculis
-          scelerisque orci, dolor, consectetur blandit mi semper feugiat
-          consequat non volutpat varius.
+          Focused on end-to-end solutions, I ensure seamless integration of
+          front-end and back-end technologies. My approach combines technical
+          skill with design sensibility, aiming for both efficiency and visual
+          impact. Committed to excellence, I transform complex challenges into
+          intuitive and engaging digital products.
         </p>
-        <Link className="border-b-2 border-cyan-400 pt-6 hover:border-black">
+        <a
+          href="./resume.pdf"
+          target="_blank"
+          rel="noopenner noreferrer"
+          className="border-b-2 border-cyan-400 pt-6 hover:border-black"
+        >
           More about me
-        </Link>
+        </a>
       </div>
     </section>
   );

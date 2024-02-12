@@ -10,13 +10,31 @@ function Footer() {
       <div>
         <ul className="flex space-x-6 pl-2 pr-44 md:space-x-12">
           <li>
-            <Link className="hover:text-purple-500">Behance</Link>
+            <Link
+              to="https://github.com/husush23"
+              target="_blank"
+              className="hover:text-purple-500"
+            >
+              GitHub
+            </Link>
           </li>
           <li>
-            <Link className="hover:text-purple-500">Dribble</Link>
+            <Link
+              to="https://www.linkedin.com/in/husseinkadare/"
+              target="_blank"
+              className="hover:text-purple-500"
+            >
+              LinkedIn
+            </Link>
           </li>
           <li>
-            <Link className="hover:text-purple-500">LinkedIn</Link>
+            <Link
+              to="https://twitter.com/husseinkadare2"
+              target="_blank"
+              className="hover:text-purple-500"
+            >
+              Twitter(𝕏)
+            </Link>
           </li>
         </ul>
       </div>
