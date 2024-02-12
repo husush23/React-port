@@ -8,7 +8,10 @@ function Recents() {
       <h2 className="py-4 font-beVietnamPro text-3xl font-semibold">
         Recent projects{" "}
       </h2>
-      <Link className="border-b-2 border-cyan-400 hover:border-black">
+      <Link
+        to="https://github.com/husush23"
+        className="border-b-2 border-cyan-400 hover:border-black"
+      >
         View all works{" "}
       </Link>
       <Projects />
