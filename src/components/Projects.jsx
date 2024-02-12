@@ -1,26 +1,53 @@
+import { useState, useEffect } from "react";
+
+import client from "../client";
 import Recent from "./Recent";
+
 function Projects() {
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    async function getProjects() {
+      try {
+        // Fetch projects with all necessary fields
+        const data = await client.fetch(
+          `*[_type == "project"]{
+            name,
+            description,
+            "imageUrl": image.asset->url,
+            projectUrl,
+            slug,
+            tags,
+            technologies,
+            type,
+            _createdAt,
+            _id,
+            _rev,
+            _type,
+            _updatedAt
+          }`,
+        );
+        setProjects(data);
+      } catch (error) {
+        console.error("error:", error);
+      }
+    }
+    getProjects();
+  }, []);
+
   return (
-    <>
-      {/* DRY needed here, do it later */}
-      <div className="grid-cols-2 md:grid md:gap-4 md:space-x-16">
+    <div className="md:grid md:grid-cols-2 ">
+      {projects.map((project, index) => (
         <Recent
-          img="https://websitedemos.net/visual-artist-portfolio-02/wp-content/uploads/sites/1059/2022/03/visual-artist-recent-work-image-5-768x410.jpg"
-          alt="Project image"
-          first={true}
+          key={project._id}
+          img={project.imageUrl}
+          title={project.name}
+          category={project.type}
+          description={project.description}
+          left={index % 2 === 1} // Alternate left alignment for even-indexed projects
         />
-        <Recent
-          img="https://websitedemos.net/visual-artist-portfolio-02/wp-content/uploads/sites/1059/2022/03/visual-artist-recent-work-image-4-400x400.jpg"
-          left={true}
-        />
-        <Recent img="https://websitedemos.net/visual-artist-portfolio-02/wp-content/uploads/sites/1059/2022/03/visual-artist-recent-work-image-2.jpg" />
-        <Recent
-          img="https://websitedemos.net/visual-artist-portfolio-02/wp-content/uploads/sites/1059/2022/03/visual-artist-recent-work-image-3.jpg"
-          left={true}
-        />
-        <Recent img="https://websitedemos.net/visual-artist-portfolio-02/wp-content/uploads/sites/1059/2022/03/visual-artist-recent-work-image-1.jpg" />
-      </div>
-    </>
+      ))}
+    </div>
   );
 }
 
