@@ -36,7 +36,7 @@ function Projects() {
   }, []);
 
   return (
-    <div className="grid-cols-2 md:grid md:gap-4 md:space-x-16">
+    <div className="md:grid md:grid-cols-2 ">
       {projects.map((project, index) => (
         <Recent
           key={project._id}
@@ -44,7 +44,6 @@ function Projects() {
           title={project.name}
           category={project.type}
           description={project.description}
-          first={index === 0} // Assuming the first project should have the 'first' styling
           left={index % 2 === 1} // Alternate left alignment for even-indexed projects
         />
       ))}
