@@ -8,7 +8,6 @@ function Navbar() {
 
   function onToggleMenu() {
     setHamburger(!hamburger);
-    // document.body.style.overflow = hamburger ? "auto" : "hidden";
   }
 
   return (
@@ -36,7 +35,7 @@ function Navbar() {
       <div className="md:hidden">
         <div className="flex items-center justify-between">
           <a>
-            <img src="./logo1.png" alt="" className="w-42 h-16 p-1" />
+            <img src="./tes.png" alt="" className="w-42 h-16 p-1" />
           </a>
           <button onClick={onToggleMenu} className="px-4">
             {!hamburger && <CiMenuFries />}
