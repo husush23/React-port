@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Gmail from "../components/Gmail";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import ContactForm from "../components/ContactForm";
 
 function Contact() {
   return (
@@ -40,32 +41,7 @@ function Contact() {
           <h2 className="mx-10 mt-16 font-beVietnamPro text-2xl font-medium md:mt-7 md:w-[33%] md:text-[40px] md:leading-9">
             Let's discuss your brand and business goals and objectives
           </h2>
-          <form className="mx-10 flex flex-col space-y-4 pb-28 md:w-[50%] ">
-            <div>
-              <input
-                name="name"
-                placeholder="Full name"
-                className="input-back h-12 w-[100%] border bg-slate-200 p-3 indent-5"
-              />
-            </div>
-            <div>
-              <input
-                name="email"
-                placeholder="Email address"
-                className="input-back h-12 w-[100%] border bg-slate-200 p-3 indent-5"
-              />
-            </div>
-            <div>
-              <textarea
-                name="message"
-                className="input-back h-24 w-[100%] border border-slate-200 indent-5"
-                placeholder="Your message"
-              />
-            </div>
-            <button className="self-start border-b-2 border-cyan-400 hover:border-b-black">
-              Submit
-            </button>
-          </form>
+          <ContactForm />
         </div>
         <Footer />
       </div>

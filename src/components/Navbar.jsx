@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <nav>
       <div className="mt-0 hidden items-center justify-between px-4 py-4 md:flex">
-        <img src="./logo1.png" className="w-42 h-16 p-1" />
+        <img src="./tes.png" className="w-42 h-16 p-1" />
         <ul className="mr-16 hidden items-center space-x-12 px-12 text-xl font-bold md:flex">
           <li>
             <NavLink className="hover:text-purple-500" to="/">
