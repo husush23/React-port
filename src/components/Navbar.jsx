@@ -8,13 +8,12 @@ function Navbar() {
 
   function onToggleMenu() {
     setHamburger(!hamburger);
-    // document.body.style.overflow = hamburger ? "auto" : "hidden";
   }
 
   return (
     <nav>
       <div className="mt-0 hidden items-center justify-between px-4 py-4 md:flex">
-        <img src="./logo1.png" className="w-42 h-16 p-1" />
+        <img src="./tes.png" className="w-42 h-16 p-1" />
         <ul className="mr-16 hidden items-center space-x-12 px-12 text-xl font-bold md:flex">
           <li>
             <NavLink className="hover:text-purple-500" to="/">
@@ -36,7 +35,7 @@ function Navbar() {
       <div className="md:hidden">
         <div className="flex items-center justify-between">
           <a>
-            <img src="./logo1.png" alt="" className="w-42 h-16 p-1" />
+            <img src="./tes.png" alt="" className="w-42 h-16 p-1" />
           </a>
           <button onClick={onToggleMenu} className="px-4">
             {!hamburger && <CiMenuFries />}
